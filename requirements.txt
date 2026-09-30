@@ -1,0 +1,7 @@
+jax[cpu]>=0.10
+optax>=0.2.8
+numpy>=2.0
+scipy>=1.11
+scikit-learn>=1.5
+pandas>=2.0
+matplotlib>=3.8

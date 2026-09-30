@@ -1,0 +1,37 @@
+{
+ "mae_encoder_params": 226540,
+ "twin": {
+  "params_twin": 662,
+  "params_encoder": 22989,
+  "train_s": 274.8864436149597,
+  "stage1_s": 195.1846776008606,
+  "stage2_s": 79.70176601409912,
+  "ms_per_forecast": 1.3663299576004597,
+  "ms_per_cf_query": 3.308496271917062
+ },
+ "process_da": {
+  "params": 17,
+  "train_s": 0.0,
+  "ms_per_forecast": 2.0896530722630873
+ },
+ "gru": {
+  "params": 33538,
+  "train_s": 197.39759278297424,
+  "ms_per_forecast": 0.1690315477775805
+ },
+ "crn": {
+  "params": 33615,
+  "train_s": 199.49851083755493,
+  "ms_per_forecast": 0.1405519948533255
+ },
+ "transformer": {
+  "params": 74562,
+  "train_s": 1359.519238948822,
+  "ms_per_forecast": 0.8744588193967361
+ },
+ "gbm": {
+  "params": null,
+  "train_s": 13.202001571655273,
+  "ms_per_forecast": 0.054072418038151146
+ }
+}
